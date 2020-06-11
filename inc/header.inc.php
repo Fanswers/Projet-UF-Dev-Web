@@ -1,11 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js"></script>
-</head>
+<?php include_once("inc/head.inc.php") ?>
+
 <body>
-    Bonjour
+    <header>
+        <p class="logo">LT</p>
+        <div class="ui menu">
+            <a class="item" href="index.php">Acceuil</a>
+            <a class="item">Nos destinations de rêve</a>
+            <div class="right menu">
+                <a class="item" href="connexion.php"><i class="user icon"></i>Se connecter</a>
+            </div>
+        </div>
+    </header>
