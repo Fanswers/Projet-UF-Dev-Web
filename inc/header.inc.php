@@ -2,7 +2,9 @@
 
 <body>
     <header>
-        <p class="logo">LT</p>
+        <div class="banner">
+            <p class="logo">Legendary Trip</p>
+        </div> 
         <div class="ui menu">
             <a class="item" href="index.php">Acceuil</a>
             <a class="item">Nos destinations de rêve</a>
