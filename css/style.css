@@ -82,6 +82,11 @@ body {
 
 .descPagePerso {
   font-size: 30px;
+  margin-left: 3%;
+}
+
+.buttonPagePerso {
+  margin-left: 90%;
 }
 
 /* -------------------- FOOTER -------------------- */

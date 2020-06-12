@@ -22,7 +22,7 @@ if($_POST)
             {
                 $_POST[$indice] = htmlEntities(addSlashes($valeur));
             }
-            executeRequete("INSERT INTO utilisateur (nom, prenom, pseudo, email, motDePasse) VALUES ('$_POST[nom]', '$_POST[prenom]', '$_POST[pseudo]', '$_POST[email]', '$_POST[motDePasse]')");
+            executeRequete("INSERT INTO utilisateur (nom, prenom, pseudo, email, numero, code_postal, adresse, motDePasse) VALUES ('$_POST[nom]', '$_POST[prenom]', '$_POST[pseudo]', '$_POST[email]', '$_POST[numero]', '$_POST[code_postal]', '$_POST[adresse]', '$_POST[motDePasse]')");
             $contenu .= "<div class='validation'>Vous êtes inscrit à notre site web.</div>";
         }
     }
@@ -48,6 +48,15 @@ if($_POST)
           
         <label for="email">Email</label><br>
         <input type="text" id="email" name="email" placeholder="exemple@gmail.com" required="required">
+
+        <label for="numero">Numéro de téléphone</label>
+        <input type="text" id="numero" name="numero" required="required">
+
+        <label for="code_postal">Code postal</label>
+        <input type="text" id="code_postal" name="code_postal" required="required">
+
+        <label for="adresse">Adresse</label>
+        <input type="text" id="adresse" name="adresse" required="required">
 
         <label for="mdp">Mot de passe</label><br>
         <input type="text" id="motDePasse" name="motDePasse" required="required">
