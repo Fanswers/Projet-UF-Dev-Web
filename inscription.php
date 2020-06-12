@@ -47,10 +47,10 @@ if($_POST)
         <input type="text" id="pseudo" name="pseudo" maxlength="20" placeholder="votre pseudo" pattern="[a-zA-Z0-9-_.]{1,20}" title="caractères acceptés : a-zA-Z0-9-_." required="required">
           
         <label for="email">Email</label><br>
-        <input type="email" id="email" name="email" placeholder="exemple@gmail.com" required="required">
+        <input type="text" id="email" name="email" placeholder="exemple@gmail.com" required="required">
 
         <label for="mdp">Mot de passe</label><br>
-        <input type="password" id="motDePasse" name="motDePasse" required="required">
+        <input type="text" id="motDePasse" name="motDePasse" required="required">
 
         <label>Confirmation mot de passe</label>
         <input type="text">

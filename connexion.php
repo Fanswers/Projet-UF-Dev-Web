@@ -37,7 +37,7 @@ if($_POST)
  
 <main>
     <p class="footitle">Connectez-vous<p>
-    <form method="post" action="" method="GET">
+    <form method="post" action="" method="GET" class="formulaire">
         <label for="pseudo">Pseudonyme</label>
         <input type="text" id="pseudo" name="pseudo">
          
