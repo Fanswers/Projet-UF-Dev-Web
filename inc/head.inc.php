@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Legendary Trip</title>
-    <link rel="stylesheet" href="css/style.css?<? echo time(); ?>">
+    <link rel="stylesheet" href="css/style.css?t=<? echo time(); ?>">
     <script src="js/script.js"></script>
     <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
     <!-- You MUST include jQuery before Fomantic -->

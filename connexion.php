@@ -36,7 +36,7 @@ if($_POST)
 <?php echo $contenu; ?>
  
 <main>
-    <p class="footitle">Connectez-vous<p>
+    <p class="formTitle">Connectez-vous<p>
     <form method="post" action="" method="GET" class="formulaire">
         <label for="pseudo">Pseudonyme</label>
         <input type="text" id="pseudo" name="pseudo">
