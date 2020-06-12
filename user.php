@@ -22,7 +22,7 @@ $membre = $result->fetch_assoc();
     <p class="descPagePerso">Adresse : <?php echo($_SESSION["utilisateur"]["adresse"])?></p>
     <p class="descPagePerso">Mes biens : </p>
     <div class="buttonPagePerso">
-        <a href="index.php"><button class="ui button">Se déconnecter</button></a>
+        <a href="inc/disconnect.inc.php"><button class="ui button">Se déconnecter</button></a>
     </div>
 </main>
 
