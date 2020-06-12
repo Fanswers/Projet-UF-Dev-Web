@@ -1,8 +1,8 @@
-<?php include_once("inc/head.inc.php") ?>
+<?php require_once("inc/head.inc.php") ?>
 
 <body>
     <header>
-        <p class="logo">LT</p>
+        <p class="logo" href="">LT</p>
         <div class="ui menu">
             <a class="item" href="index.php">Acceuil</a>
             <a class="item">Nos destinations de rêve</a>
