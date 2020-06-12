@@ -2,12 +2,16 @@ html {
   font-family: Verdana, sans-serif;
 }
 
+/* -------------------- HEADER -------------------- */
+
 .logo {
   font-size: 100px;
   color: #efd807;
 }
 
-.footitle {
+/* -------------------- FORMULAIRE INSCRIPTION/CONNEXION -------------------- */
+
+.formTitle {
   font-size: 40px;
   color: #919191;
   text-transform: uppercase;
@@ -56,6 +60,21 @@ html {
   margin-top: 20px;
   margin-left: 60%;
 }
+
+/* -------------------- PAGE PERSO -------------------- */
+
+.titlePagePerso {
+  text-align: center;
+  font-size: 50px;
+  text-transform: uppercase;
+  padding-top: 15px;
+}
+
+.descPagePerso {
+  font-size: 30px;
+}
+
+/* -------------------- FOOTER -------------------- */
 
 .faux {
   margin-top: 80px;

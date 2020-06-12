@@ -35,7 +35,7 @@ if($_POST)
 <?php echo $contenu; ?>
 
 <main>
-    <p class="footitle">Inscrivez-vous<p>
+    <p class="formTitle">Inscrivez-vous<p>
     <form class="formulaire" action="" method="POST">
         <label for="nom">Nom</label>
         <input type="text" id="nom" name="nom" required="required">
