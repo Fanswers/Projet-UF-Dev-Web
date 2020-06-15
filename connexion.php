@@ -31,7 +31,7 @@ if($_POST)
 //--------------------------------- AFFICHAGE HTML ---------------------------------//
 ?>
 
-<?php require_once("inc/head.inc.php") ?>
+<?php require_once("inc/header.inc.php") ?>
 
 <?php echo $contenu; ?>
  
