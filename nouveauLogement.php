@@ -1,8 +1,5 @@
 <?php require_once('inc/init.inc.php');
 //--------------------------------- TRAITEMENTS PHP ---------------------------------//
-//recuperer l'id user sous forme de string
-$id_userTmp = implode("   ", $_SESSION['utilisateur']);
-$id_user = substr($id_userTmp, 0, 3);
 
 if($_POST)
 {

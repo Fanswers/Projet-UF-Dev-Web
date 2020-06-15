@@ -8,6 +8,12 @@ session_start();
  
 //--------- VARIABLES ---------//
 $contenu = '';
+if ($_SESSION)
+{
+    $id_userTmp = implode("   ", $_SESSION['utilisateur']);
+    $id_user = substr($id_userTmp, 0, 3);
+}
+
  
 //--------- INCLUSIONS ---------//
 require_once("fonction.inc.php");
