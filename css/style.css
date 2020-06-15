@@ -89,6 +89,18 @@ body {
   margin-left: 90%;
 }
 
+/* -------------------- PAGE LOGEMENT -------------------- */
+
+.carteLogementTotal {
+  display: flex;
+}
+
+.carteLogement {
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
 /* -------------------- FOOTER -------------------- */
 
 .faux {

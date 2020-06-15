@@ -5,11 +5,11 @@ if($_POST)
     $resultat = executeRequete("SELECT * FROM utilisateur WHERE pseudo='$_POST[pseudo]'");
     if($resultat->num_rows != 0)
     {
-        $contenu .=  '<div style="background:green">pseudo connu!</div>';
+
         $membre = $resultat->fetch_assoc();
         if($membre['motDePasse'] == $_POST['motDePasse'])
         {
-            $contenu .= '<div class="validation">mdp connu!</div>';
+            $contenu .= '<div class="validation">Bonjour ' . $membre['pseudo'] . ' ! </div>';
             foreach($membre as $indice => $element)
             {
                 if($indice != 'motDePasse')
