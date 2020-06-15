@@ -1,0 +1,22 @@
+{
+  "name": "projet-uf-dev-web",
+  "version": "1.0.0",
+  "description": "Projet de fin d'année DevWeb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fanswers/Projet-UF-Dev-Web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fanswers/Projet-UF-Dev-Web/issues"
+  },
+  "homepage": "https://github.com/Fanswers/Projet-UF-Dev-Web#readme",
+  "dependencies": {
+    "fomantic-ui": "^2.8.5"
+  }
+}
