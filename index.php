@@ -3,6 +3,19 @@
 <?php require_once("inc/header.inc.php") ?>
 
 <main>
+
+    <div class="ui loading fluid multiple search selection dropdown">
+        <input type="hidden" name="country" value="kp">
+        <i class="dropdown icon"></i>
+        <input class="search">
+        <div class="default text">Search...</div>
+        <div class="menu">
+            <div class="item">Choice 1</div>
+            <div class="item">Choice 2</div>
+            <div class="item">Choice 3</div>
+        </div>
+    </div>
+
     <?php
         $resultat = executeRequete("SELECT * FROM logement");
 
