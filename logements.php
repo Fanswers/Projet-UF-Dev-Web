@@ -31,6 +31,11 @@
                         <i class="users icon"></i>
                         <?php echo $ligne->total_occupant ?> Personnes ------------------ <?php echo $ligne->prix?> euros
                         </a>
+                        <div>
+                            <p></p>
+                            <a href="logements.php?id=<?php echo $ligne->id_logement ?>"><button class="ui button">Supprimer</button></a>
+                            
+                        </div>
                     </div>
                     </div>
                 </div>

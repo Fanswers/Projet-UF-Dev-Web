@@ -5,6 +5,9 @@ if ($mysqli->connect_error) die('Un problème est survenu lors de la tentative d
  
 //--------- SESSION ---------//
 session_start();
+
+//--------- INCLUSIONS ---------//
+require_once("fonction.inc.php");
  
 //--------- VARIABLES ---------//
 $contenu = '';
@@ -14,6 +17,11 @@ if ($_SESSION)
     $id_user = substr($id_userTmp, 0, 3);
 }
 
+//--------- SUPRESSION LOGEMENT DANS LA BDD ---------//
  
-//--------- INCLUSIONS ---------//
-require_once("fonction.inc.php");
+
+if(!empty($_GET['id'])) {
+    $del = $_GET['id'];
+    executeRequete("DELETE FROM logement WHERE id_logement = $del"); 
+  }
+
