@@ -3,5 +3,5 @@
 <?php 
     session_destroy();
     unset($_SESSION['pseudo']);
-    header("Location: http://localhost/Projet-UF-Dev-Web/index.php");
+    header("Location: http://localhost/php/Projet-UF-Dev-Web/index.php");
 ?>

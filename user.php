@@ -21,8 +21,8 @@ $membre = $result->fetch_assoc();
     <div class="descPagePerso">
         <a href="logements.php"><button class="ui button">Mes biens</button></a>
     </div>
-    <div class="buttonPagePerso">
-        <a href="inc/disconnect.inc.php"><button class="ui button">Se déconnecter</button></a>
+    <div class="descPagePerso">
+        <a href="reservation.php"><button class="ui button">Mes voyages</button></a>
     </div>
 </main>
 
