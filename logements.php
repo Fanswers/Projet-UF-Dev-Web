@@ -1,4 +1,4 @@
-<?php require_once("inc/init.inc.php") ?>
+<?php require_once("inc/initSupr.inc.php") ?>
 
 <?php require_once("inc/header.inc.php") ?>
 
@@ -29,12 +29,12 @@
                     <div class="extra content">
                         <a>
                         <i class="users icon"></i>
-                        <?php echo $ligne->total_occupant ?> Personnes ------------------ <?php echo $ligne->prix?> euros
+                        <?php echo $ligne->total_occupant ?> Personnes ------------- <?php echo $ligne->prix?> euros/nuit
                         </a>
                         <div>
                             <p></p>
+                            <a href="descriptionLogement.php?id=<?php echo $ligne->id_logement ?>"><button class="ui button">En savoir plus</button></a>
                             <a href="logements.php?id=<?php echo $ligne->id_logement ?>"><button class="ui button">Supprimer</button></a>
-                            
                         </div>
                     </div>
                     </div>
