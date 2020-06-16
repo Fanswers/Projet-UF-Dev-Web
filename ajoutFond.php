@@ -10,7 +10,6 @@
 ?>
 
 <main>
-<?php var_dump($_SESSION); ?>
 <p class="">Votre solde est de : <?php echo($_SESSION["utilisateur"]["sold"])?> €</p>
 <form id="formulaire" class="formulaire" action="" method="POST">
     <label for="soldAdd">Ajouter des fonds</label>
