@@ -106,13 +106,6 @@
             <button class="ui button" name="reserverLogement" type="submit">Reserver</button>
         </div>
     </form>
-    <script>
-        //Dropdown JS
-        $('#departement-select').dropdown();
-        //Calendar JS
-        $('#rangestart').calendar({type: 'date',endCalendar: $('#rangeend')});
-        $('#rangeend').calendar({type: 'date',startCalendar: $('#rangestart')});
-    </script>
 </main>
 
 <?php require_once("inc/footer.inc.php") ?>

@@ -1,12 +1,11 @@
 <?php require_once("inc/init.inc.php") ?>
-
 <?php require_once("inc/header.inc.php") ?>
 
 <main>
     <?php
     if(!empty($_GET['id'])) {
         $plus = $_GET['id'];
-        $resultat = executeRequete("SELECT * FROM reservation WHERE id_utilisateur LIKE $id_user");
+        $resultat = executeRequete("SELECT * FROM reservation WHERE id_utilisateur LIKE $plus");
     }
         while ($ligne = $resultat->fetch_object())
             {
