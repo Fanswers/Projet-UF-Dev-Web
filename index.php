@@ -227,22 +227,26 @@
                 ?>
                 <div class=carteLogement>
                     <div class="ui card">
-                    <div class="ui slide masked reveal image">
-                        <img src="/images/avatar/large/jenny.jpg" class="visible content">
-                        <img src="/images/avatar/large/elliot.jpg" class="hidden content">
-                    </div>
-                    <div class="content">
-                        <a class="header"> <?php echo $ligne->logement_type ?></a>
-                        <div class="meta">
-                        <span class="date">Logement possédant <?php echo $ligne->total_chambre ?> chambres, <?php echo $ligne->total_toilette ?> toilettes, <?php echo $ligne->total_toilette?> salles de bain et d'une cuisine tout équipée. </span>
+                        <div class="ui slide masked reveal image">
+                            <img src="img/<?php echo $ligne->image ?>" class="visible content">
+                            <img src="img/avatar/large/elliot.jpg" class="hidden content">
                         </div>
-                    </div>
-                    <div class="extra content">
-                        <a>
-                        <i class="users icon"></i>
-                        <?php echo $ligne->total_occupant ?> Personnes ------------------ <?php echo $ligne->prix?> euros
-                        </a>
-                    </div>
+                        <div class="content">
+                            <a class="header"> <?php echo $ligne->logement_type ?></a>
+                            <div class="meta">
+                            <span class="date">Logement possédant <?php echo $ligne->total_chambre ?> chambres, <?php echo $ligne->total_toilette ?> toilettes, <?php echo $ligne->total_toilette?> salles de bain et d'une cuisine tout équipée. </span>
+                            </div>
+                        </div>
+                        <div class="extra content">
+                            <a>
+                            <i class="users icon"></i>
+                            <?php echo $ligne->total_occupant ?> Personnes ------------------ <?php echo $ligne->prix?> euros
+                            </a>
+                        </div>
+                        <div>
+                            <p></p>
+                            <a href="descriptionLogement.php?id=<?php echo $ligne->id_logement ?>"><button class="ui button">En savoir plus</button></a>
+                        </div>
                     </div>
                 </div>
                 <?php

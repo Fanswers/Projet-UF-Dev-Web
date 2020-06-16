@@ -105,7 +105,7 @@ body {
 /* -------------------- PAGE DESCRIPTION LOGEMENT -------------------- */
 
 .descLogement {
-  height: 900px;
+  height: 1000px;
   width: 800px;
   border: 1px solid black;
   margin-left: 50%;
@@ -116,7 +116,7 @@ body {
 }
 
 .descLogementImg {
-  height: 400px;
+  height: 500px;
   width: 797px;
   border: 0px solid black;
   margin-left: 0px;

@@ -17,8 +17,7 @@
                 <div class=carteLogement>
                     <div class="ui card">
                     <div class="ui slide masked reveal image">
-                        <img src="/images/avatar/large/jenny.jpg" class="visible content">
-                        <img src="/images/avatar/large/elliot.jpg" class="hidden content">
+                        <img src="img/<?php echo $ligne->image ?>" class="visible content">
                     </div>
                     <div class="content">
                         <a class="header"> <?php echo $ligne->logement_type ?></a>
