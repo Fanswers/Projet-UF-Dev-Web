@@ -15,6 +15,7 @@ if($_POST)
 
   	// image file directory
     $target = "img/".basename($image);
+    move_uploaded_file($_FILES['image']['tmp_name'], $target);
       
 
     //$sql = executeRequete("INSERT INTO logement (image, image_text) VALUES ('$image', '$image_text')");
