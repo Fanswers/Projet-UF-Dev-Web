@@ -243,10 +243,12 @@
                         <?php echo $ligne->total_occupant ?> Personnes ------------------ <?php echo $ligne->prix?> euros
                         </a>
                     </div>
+                    <div>
+                        <p></p>
+                        <a href="descriptionLogement.php?id=<?php echo $ligne->id_logement ?>"><button class="ui button">En savoir plus</button>
                     </div>
                 </div>
                 <?php
-                
             }
         ?>
     </div>
