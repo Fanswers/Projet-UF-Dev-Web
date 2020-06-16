@@ -20,8 +20,7 @@
                     <div class="menu">
                         <a class="item" href="user.php"><i class="user icon"></i> Profil</a>
                         <a class="item" href=""><i class="users icon"></i> message</a>
-                        <?php echo($_SESSION["utilisateur"]["sold"])?>
-                        <a class="item" href="ajoutFond.php"><i class="euro sign icon"></i><?php echo($_SESSION["utilisateur"]["sold"])?></a>;
+                        <a class="item" href="ajoutFond.php"><i class="euro sign icon"></i><?php echo($_SESSION["utilisateur"]["sold"])?></a>
                         <a href="inc/disconnect.inc.php" class="item">Se déconnecter</a>
                     </div>
                 </div>
