@@ -8,7 +8,7 @@ if($_POST)
   	// Get text
   	$image_text = mysqli_real_escape_string($mysqli, $_POST['image_text']);
 
-    executeRequete("INSERT INTO logement (logement_type, total_occupant, total_chambre, total_toilette, adresse, tv, kitchen, climatisation, chauffage, internet, prix, proprietaire_id, image, image_text) VALUES ('$_POST[logement_type]', '$_POST[total_occupant]', '$_POST[total_chambre]', '$_POST[total_toilette]', '$_POST[adresse]', '$_POST[tv]', '$_POST[kitchen]', '$_POST[climatisation]', '$_POST[chauffage]', '$_POST[internet]', '$_POST[prix]', '$id_user', '$image', '$image_text')");
+    executeRequete("INSERT INTO logement (logement_type, total_occupant, total_chambre, total_toilette, adresse, tv, kitchen, climatisation, chauffage, internet, prix, proprietaire_id, image, image_text, departement) VALUES ('$_POST[logement_type]', '$_POST[total_occupant]', '$_POST[total_chambre]', '$_POST[total_toilette]', '$_POST[adresse]', '$_POST[tv]', '$_POST[kitchen]', '$_POST[climatisation]', '$_POST[chauffage]', '$_POST[internet]', '$_POST[prix]', '$id_user', '$image', '$image_text', '$_POST[departement]')");
     //executeRequete("INSERT INTO logement (proprietaire_id) VALUES ()");
 
 
