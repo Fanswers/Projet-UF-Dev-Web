@@ -33,6 +33,7 @@ function internauteEstConnecte()
     if(!isset($_SESSION['utilisateur'])) return false;
     else return true;
 }
+
 //------------------------------------
 //function internauteEstConnecteEtEstAdmin()
 //{

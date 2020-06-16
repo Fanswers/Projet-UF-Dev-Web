@@ -17,8 +17,6 @@
   },
   "homepage": "https://github.com/Fanswers/Projet-UF-Dev-Web#readme",
   "dependencies": {
-    "fomantic-ui": "^2.8.5",
-    "fomantic-ui-css": "^2.8.5",
-    "fomantic-ui-less": "^2.8.5"
+    "fomantic-ui": "^2.8.5"
   }
 }

@@ -13,7 +13,19 @@
                 <a class="item" href="connexion.php"><i class="user icon"></i>Se connecter</a>
             <?php endif; ?>
             <?php if(internauteEstConnecte()):?>
-                <a class="item" href="user.php"><i class="user icon"></i><?php echo($_SESSION["utilisateur"]["pseudo"])?></a>
+                <div class="ui hidden divider"></div>
+                <div class="ui floating dropdown button">
+                    <div class="text" href="user.php"><?php echo($_SESSION["utilisateur"]["pseudo"])?></div>
+                    <i class="dropdown icon"></i>
+                    <div class="menu">
+                        <a class="item" href="user.php"><i class="user icon"></i> Profil</a>
+                        <a class="item" href=""><i class="users icon"></i> message</a>
+                        <a class="item" href=""><i class="users icon"></i> aide</a>
+                    </div>
+                </div>
+                <script>
+                    $('.dropdown').dropdown({action: 'hide'});
+                </script>
             <?php endif; ?>
             </div>
         </div>
