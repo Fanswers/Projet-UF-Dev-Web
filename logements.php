@@ -29,7 +29,7 @@
                     <div class="extra content">
                         <a>
                         <i class="users icon"></i>
-                        <?php echo $ligne->total_occupant ?> Personnes ------------- <?php echo $ligne->prix?> euros/nuit
+                        <?php echo $ligne->total_occupant ?> Personnes ----------- <?php echo $ligne->prix?> euros/nuit
                         </a>
                         <div>
                             <p></p>

@@ -10,12 +10,12 @@
                 ?>
                 <div class=descLogement>
                     <div class="descLogementImg">
-                        <img src="img/VacancesLuxe.jpg" class="descImg">
+                        <img src="img/<?php echo $ligne->image ?>" class="descImg">
                     </div>
                     <div>
                         <p class="descTitle"><?php echo $ligne->logement_type ?><p>
                         <div class="meta">
-                        <p class="descriptionLogement">Logement spacieux possédant <?php echo $ligne->total_chambre ?> chambres avec lits doubles, <?php echo $ligne->total_toilette ?> salles de bain, <?php echo $ligne->total_toilette?> toilettes et d'une cuisine tout équipée. La climatisation est installé dans toutes les pièces de la maison. Accès a internet très haut débit avec la fibre. </p>
+                            <p class="descriptionLogement"><?php echo $ligne->image_text ?></p>
                         </div>
                     </div>
                     <div class="personnePrix">
