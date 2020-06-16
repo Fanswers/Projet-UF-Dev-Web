@@ -6,14 +6,15 @@ body {
 }
 /* -------------------- HEADER -------------------- */
 .banner {
-  height: 230px;
+  height: 300px;
   width: 100%;
-  background-image: url(../img/Banniere1.jpg);
+  background-image: url(../img/AvionVoyage.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
 .logo {
+  margin-top: 30px;
   margin-left: 50px;
   font-size: 100px;
   color: #efd807;
@@ -99,6 +100,49 @@ body {
   margin-top: 50px;
   margin-left: 20px;
   margin-bottom: 30px;
+}
+
+/* -------------------- PAGE DESCRIPTION LOGEMENT -------------------- */
+
+.descLogement {
+  height: 900px;
+  width: 800px;
+  border: 1px solid black;
+  margin-left: 50%;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.descLogementImg {
+  height: 400px;
+  width: 797px;
+  border: 0px solid black;
+  margin-left: 0px;
+}
+
+.descImg {
+  height: 100%;
+  width: 100%;
+}
+
+.descTitle {
+  font-size: 40px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.descriptionLogement {
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.personnePrix {
+  font-size: 25px;
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
 }
 
 /* -------------------- FOOTER -------------------- */

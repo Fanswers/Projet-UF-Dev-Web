@@ -20,4 +20,7 @@ if ($_SESSION)
 //--------- SUPRESSION LOGEMENT DANS LA BDD ---------//
  
 
-
+if(!empty($_GET['id'])) {
+    $del = $_GET['id'];
+    executeRequete("DELETE FROM logement WHERE id_logement = $del"); 
+  }
